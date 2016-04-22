@@ -1,0 +1,35 @@
+
+.navbar-brand{
+	font-weight: lighter;
+	font-size: 160%;
+}
+.navbar-brand>span{
+	font-weight: bold;
+	font-size: 140%;
+}
+.intro-message>h3{
+	font-size: 145%;
+}
+
+.intro-message>h3>span{
+	font-style: italic;
+	font-weight: lighter;
+	padding: 2px;
+}
+.btn{
+	border-radius: 50% 50%;
+}
+/*Figure out how ot make font bolder or use different font*/
+.section-heading{
+	font-weight: 900;
+}
+
+.lead{
+	font-style: italic;
+	font-weight: lighter;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+img{
+	border-radius: 3%;
+}
