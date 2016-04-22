@@ -7,6 +7,9 @@
 	font-weight: bold;
 	font-size: 140%;
 }
+.navbar-right{
+	font-size: 120%;
+}
 .intro-message>h3{
 	font-size: 145%;
 }
