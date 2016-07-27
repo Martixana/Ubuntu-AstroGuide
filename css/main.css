@@ -22,7 +22,7 @@
 .btn{
 	border-radius: 50% 50%;
 }
-/*Figure out how ot make font bolder or use different font*/
+/*Figure out how to make font bolder or use different font*/
 .section-heading{
 	font-weight: 900;
 }
@@ -35,4 +35,23 @@
 }
 img{
 	border-radius: 3%;
+}
+
+/*Dropdown window*/
+
+#mySelect{
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+}
+
+/*Your Sign*/
+
+#yourSign{
+	font-size: 22px;
+	font-weight: lighter;
+}
+#yourSign > span{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 26px;
 }

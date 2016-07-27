@@ -9,7 +9,7 @@
     <meta name="description" content="First Javascript Project using StartBootstrap.com Landing Page Theme">
     <meta name="author" content="Maru P @ Codify Academy">
 
-    <title>AstroGuide - First Javascript Project</title>
+    <title>AstroGuide - A Javascript Astrology Project</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -79,10 +79,10 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-sm"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="#" class="btn btn-default btn-sm"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-sm"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                <a href="#" class="btn btn-default btn-sm"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                             </li>
                             <li>
                                 <a href="#" class="btn btn-default btn-sm"><i class="fa fa-pinterest fa-fw"></i> <span class="network-name">Pinterest</span></a>
@@ -153,15 +153,29 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Ready. Set. Give It A Go.</h2>
-                <form>
-                    <h4>Let's find your Sun Sign, first. Type in your birthday:</h4>
+            
+                    <h4>Let's start with your sun sign. When is your birthday?</h4>
+                    <br>
+                    <select id="mySelect" onchange="myFunction()">
+                        <option value="<span>Aries</span>: your gifts are independence and courage.">  Jan 1-Feb 23
+                        <option value="<span>Taurus</span>: you are easy going but will fight for what you want."> Apr 20-May 20
+                        <option value="<span>Gemini</span>: you have the gift of gab and know where you want to go in life."> May 21-Jun 20 
+                        <option value="<span>Cancer</span>: security and adventure are your top priorities."> Jun 21-Jul 22
+                        <option value="<span>Leo</span>: you have high self esteem and are very devoted."> Jul 23-Aug 22
+                        <option value="<span>Virgo</span>: self improvement and reflective thought are your strong suits."> August 23-Sept 22
+                        <option value="<span>Libra</span>: you are diplomatic and you can appreciate the finer things in life."> Sep 23-Oct 22
+                        <option value="<span>Scorpio<span>: kindness and loyalty are your virtues."> Oct 23-Nov 21
+                        <option value="<span>Sagittarius</span>: you are vibrant and you always keep a positive outlook."> Nov 22-Dec 21
+                        <option value="<span>Capricorn</span>: you are ambitious and you have an active mind."> Dec 22-Jan 19
+                        <option value="<span>Aquarius</span>: you take advantage of every opportunity that comes your way."> Jan 20-Feb 18
+                        <option value="<span>Pisces</span>: you are sensitive and a dreamer."> Feb 19-Mar 20 </select>
+            
+                    <p id="yourSign"></p>
+
                 </div>
-                <div>
-                <input type=date step=7 min=1920-01-01>
-                </div>
-                </form>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/astrology.jpg" alt="Geometric Constellations in the sky">
+
                 </div>
             </div>
 
@@ -228,6 +242,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
